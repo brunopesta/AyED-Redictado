@@ -31,9 +31,6 @@ public class RedBinariaLlena {
 			if(arbol.tieneHijoDerecho())
 				cant= Math.max(cant, retardoReenvio(arbol.getHijoDerecho()));
 		}
-		
-		
-		System.out.println("Mara bombon");
 		return cant + arbol.getDato();
 	
 		
